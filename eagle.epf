@@ -37,7 +37,7 @@ UsedLibrary="/usr/local/bin/eagle-8.2.1/lbr/granthaack-eagle-libraries/Audio-Vid
 
 [Win_1]
 Type="Control Panel"
-Loc="1693 1071 2707 1670"
+Loc="1643 1249 2657 1848"
 State=2
 Number=0
 
