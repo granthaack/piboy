@@ -124,6 +124,10 @@
 <smd name="P35" x="19.05" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 <smd name="P37" x="21.59" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 <smd name="P39" x="24.13" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
+<wire x1="-24.76" y1="5" x2="24.77" y2="5" width="0.127" layer="21"/>
+<wire x1="24.77" y1="5" x2="24.77" y2="-5" width="0.127" layer="21"/>
+<wire x1="24.77" y1="-5" x2="-24.76" y2="-5" width="0.127" layer="21"/>
+<wire x1="-24.76" y1="-5" x2="-24.76" y2="5" width="0.127" layer="21"/>
 </package>
 <package name="TL3315NF100Q">
 <smd name="P1" x="-2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>

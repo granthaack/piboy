@@ -77,11 +77,6 @@
 <smd name="P3" x="3" y="2.5" dx="1" dy="1.1" layer="1"/>
 <smd name="P2" x="-3" y="-2.5" dx="1" dy="1.1" layer="1"/>
 <smd name="P4" x="3" y="-2.5" dx="1" dy="1.1" layer="1"/>
-<wire x1="-3.75" y1="-3.5" x2="3.75" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="3.75" y1="-3.5" x2="3.75" y2="3.5" width="0.127" layer="21"/>
-<wire x1="3.75" y1="3.5" x2="-3.75" y2="3.5" width="0.127" layer="21"/>
-<wire x1="-3.75" y1="3.5" x2="-3.75" y2="-3.5" width="0.127" layer="21"/>
-<text x="-3.75" y="3.6" size="1.27" layer="25">SKRRAAE010</text>
 </package>
 <package name="961240-6300-AR-PR">
 <smd name="P2" x="-24.13" y="3.2" dx="1.27" dy="3.6" layer="1"/>
@@ -124,10 +119,6 @@
 <smd name="P35" x="19.05" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 <smd name="P37" x="21.59" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 <smd name="P39" x="24.13" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
-<wire x1="-24.76" y1="5" x2="24.77" y2="5" width="0.127" layer="21"/>
-<wire x1="24.77" y1="5" x2="24.77" y2="-5" width="0.127" layer="21"/>
-<wire x1="24.77" y1="-5" x2="-24.76" y2="-5" width="0.127" layer="21"/>
-<wire x1="-24.76" y1="-5" x2="-24.76" y2="5" width="0.127" layer="21"/>
 </package>
 <package name="TL3315NF100Q">
 <smd name="P1" x="-2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
@@ -138,12 +129,6 @@
 <smd name="NC2" x="2.575" y="1.65" dx="0.2" dy="1.3" layer="1"/>
 <smd name="NC4" x="2.575" y="-1.65" dx="0.2" dy="1.3" layer="1"/>
 <smd name="NC3" x="-2.575" y="-1.65" dx="0.2" dy="1.3" layer="1"/>
-<wire x1="-2.675" y1="2.3" x2="2.675" y2="2.3" width="0.127" layer="21"/>
-<wire x1="2.675" y1="2.3" x2="2.675" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="2.675" y1="-2.3" x2="-2.675" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="-2.675" y1="-2.3" x2="-2.675" y2="2.3" width="0.127" layer="21"/>
-<text x="-2.965" y="0.81" size="1.27" layer="25">TL3315NF100Q
-</text>
 </package>
 </packages>
 <symbols>
@@ -305,10 +290,4 @@
 </devicesets>
 </library>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
