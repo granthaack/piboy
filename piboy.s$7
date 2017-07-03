@@ -11262,7 +11262,7 @@ Vishay IHLP
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="U$33" library="piboy_new" deviceset="RK10J12R0A0B" device=""/>
 <part name="U$40" library=" SJ-43504-SMT-TR" deviceset="SJ-43504-SMT-TR" device=""/>
-<part name="CMP_VIDEO_OUT1" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
+<part name="CMP_VIDEO_OUT" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="SPK1" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="SPK2" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="U$31" library="piboy_new" deviceset="PAM8302A" device=""/>
@@ -11399,7 +11399,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <instance part="GND7" gate="1" x="236.22" y="-134.62"/>
 <instance part="U$33" gate="G$1" x="106.68" y="-99.06"/>
 <instance part="U$40" gate="G$1" x="274.32" y="-104.14"/>
-<instance part="CMP_VIDEO_OUT1" gate="1" x="248.92" y="-78.74"/>
+<instance part="CMP_VIDEO_OUT" gate="1" x="248.92" y="-78.74"/>
 <instance part="SPK1" gate="1" x="248.92" y="-91.44" rot="R270"/>
 <instance part="SPK2" gate="1" x="241.3" y="-101.6"/>
 <instance part="U$31" gate="G$1" x="177.8" y="-101.6"/>
@@ -12433,7 +12433,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="U$31" gate="G$1" pin="VO+"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="AUD-" class="0">
 <segment>
 <pinref part="FB1" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="-96.52" x2="236.22" y2="-96.52" width="0.1524" layer="91"/>
@@ -12464,16 +12464,16 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="254" y1="-96.52" x2="274.32" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="CMP_VIDEO_OUT" class="0">
 <segment>
-<pinref part="CMP_VIDEO_OUT1" gate="1" pin="P"/>
+<pinref part="CMP_VIDEO_OUT" gate="1" pin="P"/>
 <wire x1="251.46" y1="-78.74" x2="264.16" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="-78.74" x2="264.16" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="U$40" gate="G$1" pin="P$1"/>
 <wire x1="264.16" y1="-91.44" x2="274.32" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="AUD+" class="0">
 <segment>
 <pinref part="U$40" gate="G$1" pin="P$6"/>
 <wire x1="274.32" y1="-99.06" x2="248.92" y2="-99.06" width="0.1524" layer="91"/>

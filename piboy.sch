@@ -12297,9 +12297,9 @@ Source: http://www.osram.convergy.de/</description>
 <part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 <part name="C2" library="adafruit" deviceset="C-US" device="C0805" value="2.2uF"/>
 <part name="U$19" library="microbuilder" deviceset="VBAT" device=""/>
-<part name="LED1" library="piboy_new" deviceset="ADAFRUIT_LED" device="CHIPLED_0603" value="RED"/>
+<part name="LBO" library="piboy_new" deviceset="ADAFRUIT_LED" device="CHIPLED_0603" value="RED"/>
 <part name="R20" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
-<part name="LED2" library="piboy_new" deviceset="ADAFRUIT_LED" device="CHIPLED_0603" value="BLUE"/>
+<part name="ON" library="piboy_new" deviceset="ADAFRUIT_LED" device="CHIPLED_0603" value="BLUE"/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0805" value="1K"/>
 <part name="R13" library="adafruit" deviceset="R-US_" device="R0805" value="200K"/>
 <part name="U$27" library="microbuilder" deviceset="VBAT" device=""/>
@@ -12432,9 +12432,9 @@ R3 = 1.1Mohm for 3.3V</text>
 <instance part="U$5" gate="G$1" x="-40.64" y="-147.32"/>
 <instance part="C2" gate="G$1" x="-86.36" y="-15.24"/>
 <instance part="U$19" gate="G$1" x="-154.94" y="-2.54"/>
-<instance part="LED1" gate="G$1" x="-68.58" y="-48.26"/>
+<instance part="LBO" gate="G$1" x="-68.58" y="-48.26"/>
 <instance part="R20" gate="G$1" x="-68.58" y="-40.64" rot="R90"/>
-<instance part="LED2" gate="G$1" x="-50.8" y="7.62" rot="R90"/>
+<instance part="ON" gate="G$1" x="-50.8" y="7.62" rot="R90"/>
 <instance part="R5" gate="G$1" x="-60.96" y="7.62"/>
 <instance part="R13" gate="G$1" x="-127" y="25.4" rot="R270"/>
 <instance part="U$27" gate="G$1" x="-127" y="33.02"/>
@@ -12586,7 +12586,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <segment>
 <wire x1="-43.18" y1="7.62" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="GND"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="ON" gate="G$1" pin="C"/>
 <wire x1="-45.72" y1="7.62" x2="-43.18" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12595,7 +12595,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="-139.7" y1="-48.26" x2="-139.7" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LBO" gate="G$1" pin="C"/>
 <pinref part="U$20" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -12886,7 +12886,7 @@ R3 = 1.1Mohm for 3.3V</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LBO" gate="G$1" pin="A"/>
 <pinref part="R20" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -12935,7 +12935,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="ON" gate="G$1" pin="A"/>
 <wire x1="-55.88" y1="7.62" x2="-53.34" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>

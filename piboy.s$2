@@ -9558,6 +9558,8 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="-6" y1="-3.6" x2="-6" y2="-8.3" width="0.127" layer="20"/>
 <wire x1="-6" y1="-8.3" x2="6" y2="-8.3" width="0.127" layer="20"/>
 <wire x1="6" y1="-8.3" x2="6" y2="-3.6" width="0.127" layer="20"/>
+<smd name="GND1" x="-5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
+<smd name="GND2" x="5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 </package>
 <package name="PAM8302A">
 <smd name="P$3" x="0.65" y="-2.7" dx="0.4" dy="0.72" layer="1"/>

@@ -11242,7 +11242,6 @@ Vishay IHLP
 <part name="U$25" library="piboy" deviceset="TL3315NF100Q" device=""/>
 <part name="U$26" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="U$28" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
-<part name="U$29" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="U$30" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="BCM28,ID_SC" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="BCM27,ID_SD" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
@@ -11379,7 +11378,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <instance part="U$25" gate="G$1" x="35.56" y="-99.06"/>
 <instance part="U$26" gate="G$1" x="7.62" y="-96.52"/>
 <instance part="U$28" gate="G$1" x="66.04" y="-96.52"/>
-<instance part="U$29" gate="G$1" x="7.62" y="-106.68"/>
 <instance part="U$30" gate="G$1" x="66.04" y="-106.68"/>
 <instance part="BCM28,ID_SC" gate="1" x="68.58" y="-40.64"/>
 <instance part="BCM27,ID_SD" gate="1" x="68.58" y="43.18"/>
@@ -11659,11 +11657,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="53.34" y1="-167.64" x2="48.26" y2="-167.64" width="0.1524" layer="91"/>
 <junction x="48.26" y="-167.64"/>
 <label x="40.64" y="-167.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$29" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="-106.68" x2="17.78" y2="-106.68" width="0.1524" layer="91"/>
-<label x="12.7" y="-104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$30" gate="G$1" pin="2"/>
@@ -12319,11 +12312,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="U$9" gate="G$1" pin="P40"/>
 <wire x1="27.94" y1="-20.32" x2="45.72" y2="-20.32" width="0.1524" layer="91"/>
 <label x="45.72" y="-20.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$29" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="-106.68" x2="-2.54" y2="-106.68" width="0.1524" layer="91"/>
-<label x="-2.54" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="J_BRT" class="0">
