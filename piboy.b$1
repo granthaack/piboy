@@ -247,6 +247,10 @@ VIDEO</text>
 <text x="72.5" y="55.5" size="1.778" layer="26" font="vector" rot="MR0">C2</text>
 <text x="74.5" y="58.5" size="1.778" layer="26" font="vector" rot="MR0">R20</text>
 <text x="68.3" y="62.5" size="1.778" layer="26" font="vector" rot="MR0">R5</text>
+<text x="74.6" y="63.3" size="1.778" layer="25" font="vector">B</text>
+<text x="71.4" y="60.5" size="1.778" layer="25" font="vector">R</text>
+<text x="71.4" y="57.3" size="1.778" layer="25" font="vector">O</text>
+<text x="73.4" y="53.9" size="1.778" layer="25" font="vector">G</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -1467,6 +1471,61 @@ design rules under a new name.</description>
 <wire x1="75" y1="59.4" x2="75" y2="61.05" width="0.1524" layer="1"/>
 <wire x1="75" y1="61.05" x2="74.75" y2="61.3" width="0.1524" layer="1"/>
 <wire x1="75.0797" y1="47.5" x2="75.0797" y2="59.3203" width="0.1524" layer="16"/>
+<polygon width="0.1524" layer="1">
+<vertex x="0.2" y="0.2"/>
+<vertex x="0.2" y="72.2"/>
+<vertex x="0.3" y="72.2"/>
+<vertex x="23.1" y="72.2"/>
+<vertex x="23.1" y="76"/>
+<vertex x="54.5" y="76"/>
+<vertex x="54.5" y="72.2"/>
+<vertex x="76" y="72.2"/>
+<vertex x="76" y="33.2"/>
+<vertex x="73.5" y="33.2"/>
+<vertex x="73.5" y="10"/>
+<vertex x="76" y="10"/>
+<vertex x="76" y="0.2"/>
+<vertex x="40.8" y="0.2"/>
+<vertex x="40.8" y="2.7"/>
+<vertex x="35.5" y="2.7"/>
+<vertex x="35.5" y="0.2"/>
+<vertex x="35.1" y="0.2"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="0.1" y="0.1"/>
+<vertex x="0.1" y="72.2"/>
+<vertex x="23.1" y="72.2"/>
+<vertex x="23.1" y="76"/>
+<vertex x="54.4" y="76"/>
+<vertex x="54.4" y="72.2"/>
+<vertex x="76" y="72.2"/>
+<vertex x="76" y="33.3"/>
+<vertex x="73.4" y="33.3"/>
+<vertex x="73.4" y="10"/>
+<vertex x="76" y="10"/>
+<vertex x="76" y="0.3"/>
+<vertex x="41" y="0.3"/>
+<vertex x="41" y="2.8"/>
+<vertex x="35.4" y="2.8"/>
+<vertex x="35.4" y="0.2"/>
+<vertex x="15.9" y="0.2"/>
+<vertex x="15.9" y="8.5"/>
+<vertex x="16" y="8.5"/>
+<vertex x="16" y="8.6"/>
+<vertex x="17.9" y="8.6"/>
+<vertex x="17.9" y="10.5"/>
+<vertex x="15.9" y="10.5"/>
+<vertex x="15.9" y="14.9"/>
+<vertex x="8.4" y="14.9"/>
+<vertex x="6.1" y="10.7"/>
+<vertex x="6.1" y="7.6"/>
+<vertex x="6.9" y="7.6"/>
+<vertex x="6.9" y="8.5"/>
+<vertex x="8.7" y="8.5"/>
+<vertex x="8.7" y="0.4"/>
+<vertex x="8.4" y="0.4"/>
+<vertex x="8.4" y="0.1"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="3"/>
@@ -2575,6 +2634,7 @@ design rules under a new name.</description>
 <wire x1="21.0085125" y1="33.1786" x2="26.3383125" y2="38.5084" width="0.1524" layer="1"/>
 <wire x1="18" y1="7.8215125" x2="19.7834" y2="9.6049125" width="0.1524" layer="1"/>
 <wire x1="19.7834" y1="9.6049125" x2="19.7834" y2="33.0446875" width="0.1524" layer="1"/>
+<wire x1="23.8" y1="41.45" x2="23.6" y2="41.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$29">
 <contactref element="FB2" pad="2"/>
