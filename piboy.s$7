@@ -11245,11 +11245,11 @@ Vishay IHLP
 <part name="U$30" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="BCM28,ID_SC" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="BCM27,ID_SD" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
-<part name="R19" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805"/>
-<part name="R21" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805"/>
-<part name="C11" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805"/>
-<part name="C12" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805"/>
-<part name="R22" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805"/>
+<part name="R19" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="100"/>
+<part name="R21" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="100"/>
+<part name="C11" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805" value="1uf"/>
+<part name="C12" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805" value="1uf"/>
+<part name="R22" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="10k"/>
 <part name="C13" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805" value="10uf"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
