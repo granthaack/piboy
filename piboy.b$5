@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -228,6 +228,17 @@ VIDEO</text>
 <text x="31.5" y="49.5" size="1.778" layer="26" font="vector" rot="MR270">C13</text>
 <text x="34.5" y="49.5" size="1.778" layer="26" font="vector" rot="MR270">C14</text>
 <text x="37.5" y="58.5" size="1.778" layer="26" font="vector" rot="MR0">R4</text>
+<text x="40.6" y="65.5" size="1.778" layer="26" font="vector" rot="MR0">R3</text>
+<text x="45.9" y="63.6" size="1.778" layer="26" font="vector" rot="MR0">C6</text>
+<text x="51.1" y="58.1" size="1.778" layer="26" font="vector" rot="MR0">C7</text>
+<text x="63.5" y="61.3" size="1.778" layer="26" font="vector" rot="MR0">THRM</text>
+<text x="62.3" y="57.8" size="1.778" layer="26" font="vector" rot="MR0">R14</text>
+<text x="64.4" y="54.4" size="1.778" layer="26" font="vector" rot="MR0">R8</text>
+<text x="61.3" y="48.8" size="1.778" layer="26" font="vector" rot="MR0">C8</text>
+<text x="65.4" y="49.7" size="1.778" layer="26" font="vector" rot="MR0">R6</text>
+<text x="57.2" y="49.3" size="1.778" layer="26" font="vector" rot="MR270">R17</text>
+<text x="54.9" y="49.6" size="1.778" layer="26" font="vector" rot="MR270">R16</text>
+<text x="52.1" y="47.4" size="1.778" layer="26" font="vector" rot="MR0">R2</text>
 </plain>
 <libraries>
 <library name="microbuilder">

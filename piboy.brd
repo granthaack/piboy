@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -805,10 +805,10 @@ chip</description>
 <smd name="P$3" x="4" y="-9" dx="1.4" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$2" x="-2" y="-9" dx="1.4" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$1" x="-4" y="-9" dx="1.4" dy="1.2" layer="1" rot="R90"/>
-<circle x="0" y="0" radius="7" width="0.127" layer="20"/>
-<wire x1="-6" y1="-3.6" x2="-6" y2="-8.3" width="0.127" layer="20"/>
-<wire x1="-6" y1="-8.3" x2="6" y2="-8.3" width="0.127" layer="20"/>
-<wire x1="6" y1="-8.3" x2="6" y2="-3.6" width="0.127" layer="20"/>
+<circle x="0" y="0" radius="7" width="0.127" layer="51"/>
+<wire x1="-6" y1="-3.6" x2="-6" y2="-8.3" width="0.127" layer="51"/>
+<wire x1="-6" y1="-8.3" x2="6" y2="-8.3" width="0.127" layer="51"/>
+<wire x1="6" y1="-8.3" x2="6" y2="-3.6" width="0.127" layer="51"/>
 <smd name="GND1" x="-5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 <smd name="GND2" x="5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 </package>
@@ -2965,8 +2965,8 @@ design rules under a new name.</description>
 <approved hash="4,16,ab3bfe933bf31e0c"/>
 <approved hash="4,16,ca96171f82b0cf4a"/>
 <approved hash="4,16,323fe5d4054a1364"/>
-<approved hash="4,16,0b1beae75d937bb6"/>
 <approved hash="4,16,0b13e3a3622f7bb6"/>
+<approved hash="4,16,0b1beae75d937bb6"/>
 <approved hash="4,16,1066d1fdc62b8ddc"/>
 </errors>
 </board>
