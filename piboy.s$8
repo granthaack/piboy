@@ -9558,6 +9558,8 @@ type V526-0, grid 2.5 mm</description>
 <wire x1="-6" y1="-3.6" x2="-6" y2="-8.3" width="0.127" layer="20"/>
 <wire x1="-6" y1="-8.3" x2="6" y2="-8.3" width="0.127" layer="20"/>
 <wire x1="6" y1="-8.3" x2="6" y2="-3.6" width="0.127" layer="20"/>
+<smd name="GND1" x="-5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
+<smd name="GND2" x="5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 </package>
 <package name="PAM8302A">
 <smd name="P$3" x="0.65" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
@@ -11245,11 +11247,11 @@ Vishay IHLP
 <part name="U$30" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="BCM28,ID_SC" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="BCM27,ID_SD" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
-<part name="R19" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805"/>
-<part name="R21" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805"/>
-<part name="C11" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805"/>
-<part name="C12" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805"/>
-<part name="R22" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805"/>
+<part name="R19" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="100"/>
+<part name="R21" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="100"/>
+<part name="C11" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805" value="1uf"/>
+<part name="C12" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805" value="1uf"/>
+<part name="R22" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="10k"/>
 <part name="C13" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805" value="10uf"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -11265,6 +11267,8 @@ Vishay IHLP
 <part name="SPK1" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="SPK2" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="U$31" library="piboy_new" deviceset="PAM8302A" device=""/>
+<part name="C3" library="piboy_new" deviceset="MICROBUILDER_CAP_CERAMIC" device="_0805" value="100nf"/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11391,16 +11395,18 @@ R3 = 1.1Mohm for 3.3V</text>
 <instance part="GND5" gate="1" x="205.74" y="-99.06" rot="R90"/>
 <instance part="FB1" gate="G$1" x="218.44" y="-96.52"/>
 <instance part="FB2" gate="G$1" x="218.44" y="-104.14"/>
-<instance part="C14" gate="G$1" x="228.6" y="-127"/>
-<instance part="C15" gate="G$1" x="236.22" y="-127"/>
-<instance part="GND6" gate="1" x="228.6" y="-134.62"/>
-<instance part="GND7" gate="1" x="236.22" y="-134.62"/>
+<instance part="C14" gate="G$1" x="228.6" y="-114.3"/>
+<instance part="C15" gate="G$1" x="236.22" y="-114.3"/>
+<instance part="GND6" gate="1" x="228.6" y="-124.46"/>
+<instance part="GND7" gate="1" x="236.22" y="-124.46"/>
 <instance part="U$33" gate="G$1" x="106.68" y="-99.06"/>
 <instance part="U$40" gate="G$1" x="274.32" y="-104.14"/>
 <instance part="CMP_VIDEO_OUT" gate="1" x="248.92" y="-78.74"/>
 <instance part="SPK1" gate="1" x="248.92" y="-91.44" rot="R270"/>
 <instance part="SPK2" gate="1" x="241.3" y="-101.6"/>
 <instance part="U$31" gate="G$1" x="177.8" y="-101.6"/>
+<instance part="C3" gate="G$1" x="243.84" y="-114.3"/>
+<instance part="GND8" gate="1" x="243.84" y="-124.46"/>
 </instances>
 <busses>
 </busses>
@@ -11676,12 +11682,17 @@ R3 = 1.1Mohm for 3.3V</text>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="228.6" y1="-129.54" x2="228.6" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-116.84" x2="228.6" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="236.22" y1="-129.54" x2="236.22" y2="-132.08" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-116.84" x2="236.22" y2="-121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="243.84" y1="-116.84" x2="243.84" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11998,15 +12009,6 @@ R3 = 1.1Mohm for 3.3V</text>
 </net>
 <net name="5.0V" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="P4"/>
-<wire x1="27.94" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="45.72" y="25.4" size="1.778" layer="95"/>
-<wire x1="-68.58" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
-<junction x="27.94" y="25.4"/>
-<wire x1="25.4" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="25.4" x2="2.54" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="33.02" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
 <wire x1="-96.52" y1="-7.62" x2="-91.44" y2="-7.62" width="0.1524" layer="91"/>
@@ -12022,8 +12024,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="-81.28" y1="-7.62" x2="-68.58" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-7.62" x2="-68.58" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="7.62" x2="-66.04" y2="7.62" width="0.1524" layer="91"/>
-<junction x="-68.58" y="7.62"/>
-<wire x1="-68.58" y1="7.62" x2="-68.58" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BCM2,5.0V" gate="1" pin="P"/>
@@ -12048,6 +12048,11 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="142.24" y1="-91.44" x2="129.54" y2="-91.44" width="0.1524" layer="91"/>
 <junction x="129.54" y="-91.44"/>
 <label x="129.54" y="-91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P4"/>
+<wire x1="27.94" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<label x="45.72" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -12425,7 +12430,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <segment>
 <pinref part="FB1" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="-96.52" x2="236.22" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-96.52" x2="236.22" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-96.52" x2="236.22" y2="-109.22" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="-96.52" x2="248.92" y2="-96.52" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="-96.52" x2="248.92" y2="-93.98" width="0.1524" layer="91"/>
@@ -12440,16 +12445,20 @@ R3 = 1.1Mohm for 3.3V</text>
 <segment>
 <pinref part="FB2" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="-104.14" x2="228.6" y2="-104.14" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="-104.14" x2="228.6" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-104.14" x2="228.6" y2="-109.22" width="0.1524" layer="91"/>
 <junction x="228.6" y="-104.14"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="U$40" gate="G$1" pin="P$2"/>
-<wire x1="228.6" y1="-104.14" x2="254" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-104.14" x2="243.84" y2="-104.14" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="-104.14" x2="254" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="254" y1="-104.14" x2="274.32" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="254" y1="-104.14" x2="254" y2="-96.52" width="0.1524" layer="91"/>
 <junction x="254" y="-104.14"/>
 <pinref part="U$40" gate="G$1" pin="P$3"/>
 <wire x1="254" y1="-96.52" x2="274.32" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="-109.22" x2="243.84" y2="-104.14" width="0.1524" layer="91"/>
+<junction x="243.84" y="-104.14"/>
 </segment>
 </net>
 <net name="CMP_VIDEO_OUT" class="0">
