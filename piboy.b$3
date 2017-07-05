@@ -253,6 +253,8 @@ VIDEO</text>
 <circle x="62.9412" y="21.9964" radius="0.259028125" width="0.254" layer="22"/>
 <circle x="7.2898" y="2.8956" radius="0.1295125" width="0.254" layer="22"/>
 <circle x="12.2936" y="60.6044" radius="0.1077625" width="0.254" layer="22"/>
+<text x="71.2216" y="13.335" size="2.54" layer="21" font="vector" rot="R180">PiBoy SP</text>
+<text x="53.2638" y="7.6454" size="2.54" layer="21" font="vector">V1.0</text>
 </plain>
 <libraries>
 <library name="microbuilder">

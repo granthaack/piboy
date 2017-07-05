@@ -231,6 +231,22 @@ VIDEO</text>
 <text x="50.7492" y="59.6646" size="1.778" layer="26" font="vector" rot="MR270">R6</text>
 <text x="44.2722" y="56.8198" size="1.778" layer="26" font="vector" rot="MR0">C4</text>
 <text x="44.196" y="54.6354" size="1.778" layer="26" font="vector" rot="MR0">C1</text>
+<text x="44.9072" y="64.8208" size="1.778" layer="26" font="vector" rot="MR0">C6</text>
+<text x="62.484" y="57.785" size="1.778" layer="26" font="vector" rot="MR0">R14</text>
+<text x="61.4426" y="51.6636" size="1.778" layer="26" font="vector" rot="MR0">R8</text>
+<text x="60.706" y="47.371" size="1.778" layer="26" font="vector" rot="MR0">C8</text>
+<text x="56.515" y="49.6824" size="1.778" layer="26" font="vector" rot="MR270">R17</text>
+<text x="54.3814" y="49.5808" size="1.778" layer="26" font="vector" rot="MR270">R16</text>
+<text x="32.4612" y="57.1754" size="1.778" layer="26" font="vector" rot="MR0">C12</text>
+<text x="29.8196" y="57.2516" size="1.778" layer="26" font="vector" rot="MR270">R21</text>
+<text x="21.59" y="50.9524" size="1.778" layer="26" font="vector" rot="MR0">C11</text>
+<text x="25.4762" y="54.9148" size="1.778" layer="26" font="vector" rot="MR0">R19</text>
+<text x="35.6362" y="44.7548" size="1.778" layer="26" font="vector" rot="MR270">C14</text>
+<text x="31.4706" y="40.5384" size="1.778" layer="26" font="vector" rot="MR270">C13</text>
+<text x="29.464" y="40.513" size="1.778" layer="26" font="vector" rot="MR270">R22</text>
+<text x="24.9936" y="40.2336" size="1.778" layer="26" font="vector" rot="MR270">FB2</text>
+<text x="26.5938" y="45.2628" size="1.778" layer="26" font="vector" rot="MR270">C15</text>
+<text x="20.3454" y="45.5422" size="1.778" layer="26" font="vector" rot="MR270">FB1</text>
 </plain>
 <libraries>
 <library name="microbuilder">

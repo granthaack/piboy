@@ -237,6 +237,22 @@ VIDEO</text>
 <text x="60.706" y="47.371" size="1.778" layer="26" font="vector" rot="MR0">C8</text>
 <text x="56.515" y="49.6824" size="1.778" layer="26" font="vector" rot="MR270">R17</text>
 <text x="54.3814" y="49.5808" size="1.778" layer="26" font="vector" rot="MR270">R16</text>
+<text x="30.1752" y="60.7314" size="1.778" layer="26" font="vector" rot="MR270">C12</text>
+<text x="30.1244" y="56.1594" size="1.778" layer="26" font="vector" rot="MR270">R21</text>
+<text x="24.0284" y="58.4454" size="1.778" layer="26" font="vector" rot="MR0">C11</text>
+<text x="21.1074" y="51.9176" size="1.778" layer="26" font="vector" rot="MR0">R22</text>
+<text x="23.5712" y="56.007" size="1.778" layer="26" font="vector" rot="MR0">R19</text>
+<wire x1="23.5966" y1="55.9562" x2="23.5966" y2="54.6354" width="0.254" layer="26"/>
+<wire x1="23.5966" y1="54.6354" x2="24.4348" y2="53.7972" width="0.254" layer="26"/>
+<text x="21.082" y="41.4528" size="1.778" layer="26" font="vector" rot="MR270">C15</text>
+<text x="23.114" y="41.529" size="1.778" layer="26" font="vector" rot="MR270">FB1</text>
+<text x="26.035" y="41.529" size="1.778" layer="26" font="vector" rot="MR270">C13</text>
+<text x="28.1686" y="41.4274" size="1.778" layer="26" font="vector" rot="MR270">FB2</text>
+<text x="30.2514" y="41.6306" size="1.778" layer="26" font="vector" rot="MR270">C14</text>
+<circle x="21.9202" y="51.3334" radius="0.345475" width="0.254" layer="22"/>
+<circle x="62.9412" y="21.9964" radius="0.259028125" width="0.254" layer="22"/>
+<circle x="7.2898" y="2.8956" radius="0.1295125" width="0.254" layer="22"/>
+<circle x="12.2936" y="60.6044" radius="0.1077625" width="0.254" layer="22"/>
 </plain>
 <libraries>
 <library name="microbuilder">
