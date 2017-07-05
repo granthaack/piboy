@@ -1598,6 +1598,48 @@ VIDEO</text>
 <rectangle x1="57.6453" y1="12.4968" x2="58.1787" y2="12.5222" layer="21"/>
 <rectangle x1="57.8993" y1="12.5222" x2="57.9501" y2="12.5476" layer="21"/>
 <rectangle x1="62.6491" y1="11.303" x2="62.9793" y2="11.3284" layer="21"/>
+<text x="71.5139" y="60.3536" size="1.778" layer="25" font="vector">R</text>
+<text x="73.4443" y="58.2327" size="1.778" layer="25" font="vector">O</text>
+<text x="73.4062" y="53.9782" size="1.778" layer="25" font="vector">G</text>
+<rectangle x1="50.9143" y1="11.9634" x2="50.9397" y2="11.9888" layer="21"/>
+<rectangle x1="50.9651" y1="11.938" x2="50.9905" y2="11.9634" layer="21"/>
+<rectangle x1="51.0159" y1="11.9126" x2="51.0413" y2="11.938" layer="21"/>
+<rectangle x1="49.8983" y1="9.779" x2="52.4891" y2="10.3124" layer="21"/>
+<polygon width="0.0762" layer="21" spacing="0.254">
+<vertex x="50.7619" y="9.4488"/>
+<vertex x="50.9397" y="9.3345"/>
+<vertex x="50.7619" y="9.2202"/>
+</polygon>
+<polygon width="0.0762" layer="21" spacing="0.254">
+<vertex x="50.3301" y="9.2202"/>
+<vertex x="50.3301" y="9.4488"/>
+<vertex x="50.1523" y="9.3345"/>
+</polygon>
+<polygon width="0.0762" layer="21" spacing="0.254">
+<vertex x="50.4063" y="9.1186"/>
+<vertex x="50.6603" y="9.1186"/>
+<vertex x="50.5333" y="8.9408"/>
+</polygon>
+<polygon width="0.0762" layer="21" spacing="0.254">
+<vertex x="50.4063" y="9.5631"/>
+<vertex x="50.5333" y="9.7028"/>
+<vertex x="50.6476" y="9.5631"/>
+</polygon>
+<polygon width="0.0762" layer="21" spacing="0.254">
+<vertex x="53.2384" y="10.4521"/>
+<vertex x="53.4797" y="12.4968"/>
+<vertex x="54.0639" y="12.4968" curve="-79.611294"/>
+<vertex x="54.5211" y="12.1158" curve="-31.921961"/>
+<vertex x="54.4703" y="11.5951" curve="-66.208987"/>
+<vertex x="54.0766" y="11.3157" curve="2.63673"/>
+<vertex x="53.6702" y="11.2903"/>
+<vertex x="53.5432" y="10.4521"/>
+</polygon>
+<rectangle x1="49.8856" y1="8.2804" x2="52.4891" y2="10.3124" layer="21"/>
+<rectangle x1="49.8983" y1="10.414" x2="50.1015" y2="12.4714" layer="21"/>
+<rectangle x1="49.8983" y1="10.414" x2="52.4891" y2="10.5918" layer="21"/>
+<rectangle x1="52.2859" y1="10.414" x2="52.4891" y2="12.4714" layer="21"/>
+<rectangle x1="49.8983" y1="12.319" x2="52.4891" y2="12.4714" layer="21"/>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -4121,26 +4163,26 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="3,16,041bae6bae1b046b"/>
 <approved hash="4,1,3e2124899d562e41"/>
 <approved hash="4,1,be6c2ee0122b8227"/>
-<approved hash="4,1,bc0a2dc61133801d"/>
 <approved hash="4,1,bdce21121d2b8051"/>
+<approved hash="4,1,bc0a2dc61133801d"/>
 <approved hash="4,1,704bb45b9433dfa2"/>
 <approved hash="4,1,3110d02bada3c340"/>
 <approved hash="4,1,a91cd8dc5f57d753"/>
-<approved hash="4,1,21959719ab091d67"/>
 <approved hash="4,1,3344f8d08de13451"/>
+<approved hash="4,1,21959719ab091d67"/>
 <approved hash="4,1,935cfe0912a54efe"/>
 <approved hash="4,1,f3f9e462f782dc2b"/>
-<approved hash="4,1,36c4769441c8cd38"/>
 <approved hash="4,1,7710613e879c297f"/>
+<approved hash="4,1,36c4769441c8cd38"/>
 <approved hash="4,1,4ade76e276204a1c"/>
-<approved hash="4,1,1043cc531bc1eef3"/>
 <approved hash="4,1,bcb4c5798439a0bb"/>
+<approved hash="4,1,1043cc531bc1eef3"/>
 <approved hash="4,1,b2df1ee31e23b21f"/>
-<approved hash="4,1,6f38d93257906952"/>
 <approved hash="4,1,8ee96e9801c41d10"/>
+<approved hash="4,1,6f38d93257906952"/>
 <approved hash="4,1,aaddf6e1f621aa1d"/>
-<approved hash="4,1,b86d94574bc35ed0"/>
 <approved hash="4,1,e4976d7b343df095"/>
+<approved hash="4,1,b86d94574bc35ed0"/>
 <approved hash="4,1,42de4ee24e2c4210"/>
 <approved hash="4,16,7710613e879c297f"/>
 <approved hash="4,16,36c4769441c8cd38"/>
