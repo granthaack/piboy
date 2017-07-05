@@ -8789,14 +8789,14 @@ chip</description>
 <smd name="GND2" x="5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 </package>
 <package name="PAM8302A">
-<smd name="P$3" x="0.65" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$2" x="-0.65" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$4" x="1.95" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$1" x="-1.95" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$8" x="-1.95" y="3" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$7" x="-0.65" y="3" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$6" x="0.65" y="3" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$5" x="1.95" y="3" dx="0.4" dy="0.72" layer="1"/>
+<smd name="P$3" x="0.65" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$2" x="-0.65" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$4" x="1.95" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$1" x="-1.95" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$8" x="-1.95" y="3" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$7" x="-0.65" y="3" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$6" x="0.65" y="3" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$5" x="1.95" y="3" dx="0.508" dy="2.5146" layer="1"/>
 <wire x1="-2.15" y1="2.6" x2="2.15" y2="2.6" width="0.127" layer="51"/>
 <wire x1="2.15" y1="-2.35" x2="-2.15" y2="-2.35" width="0.127" layer="51"/>
 <wire x1="-2.15" y1="-2.35" x2="-2.4" y2="-2.35" width="0.127" layer="51"/>

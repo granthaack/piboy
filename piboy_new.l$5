@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -5325,6 +5325,8 @@ Source: http://dkc3.digikey.com/Media/PDF/Data%20Sheets/E-Switch%20PDFs/TL1105%2
 <wire x1="-6" y1="-3.6" x2="-6" y2="-8.3" width="0.127" layer="20"/>
 <wire x1="-6" y1="-8.3" x2="6" y2="-8.3" width="0.127" layer="20"/>
 <wire x1="6" y1="-8.3" x2="6" y2="-3.6" width="0.127" layer="20"/>
+<smd name="GND1" x="-5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
+<smd name="GND2" x="5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 </package>
 <package name="PAM8302A">
 <smd name="P$3" x="0.65" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
@@ -8251,11 +8253,19 @@ Vishay IHLP
 <gate name="G$1" symbol="PAM8302A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="PAM8302A">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="IN+" pad="P$2"/>
+<connect gate="G$1" pin="IN-\" pad="P$3"/>
+<connect gate="G$1" pin="NC" pad="P$4"/>
+<connect gate="G$1" pin="SD\" pad="P$5"/>
+<connect gate="G$1" pin="VCC" pad="P$6"/>
+<connect gate="G$1" pin="VO+" pad="P$7"/>
+<connect gate="G$1" pin="VO-" pad="P$8"/>
+</connects>
 <technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="_EXTERNAL_" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

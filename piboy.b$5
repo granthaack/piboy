@@ -1601,6 +1601,10 @@ VIDEO</text>
 <text x="71.5139" y="60.3536" size="1.778" layer="25" font="vector">R</text>
 <text x="73.4443" y="58.2327" size="1.778" layer="25" font="vector">O</text>
 <text x="73.4062" y="53.9782" size="1.778" layer="25" font="vector">G</text>
+<rectangle x1="50.9143" y1="11.9634" x2="50.9397" y2="11.9888" layer="21"/>
+<rectangle x1="50.9651" y1="11.938" x2="50.9905" y2="11.9634" layer="21"/>
+<rectangle x1="51.0159" y1="11.9126" x2="51.0413" y2="11.938" layer="21"/>
+<rectangle x1="49.8983" y1="9.779" x2="52.4891" y2="10.3124" layer="21"/>
 </plain>
 <libraries>
 <library name="microbuilder">
