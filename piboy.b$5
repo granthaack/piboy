@@ -1598,6 +1598,9 @@ VIDEO</text>
 <rectangle x1="57.6453" y1="12.4968" x2="58.1787" y2="12.5222" layer="21"/>
 <rectangle x1="57.8993" y1="12.5222" x2="57.9501" y2="12.5476" layer="21"/>
 <rectangle x1="62.6491" y1="11.303" x2="62.9793" y2="11.3284" layer="21"/>
+<text x="71.5139" y="60.3536" size="1.778" layer="25" font="vector">R</text>
+<text x="73.4443" y="58.2327" size="1.778" layer="25" font="vector">O</text>
+<text x="73.4062" y="53.9782" size="1.778" layer="25" font="vector">G</text>
 </plain>
 <libraries>
 <library name="microbuilder">
@@ -4121,26 +4124,26 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="3,16,041bae6bae1b046b"/>
 <approved hash="4,1,3e2124899d562e41"/>
 <approved hash="4,1,be6c2ee0122b8227"/>
-<approved hash="4,1,bc0a2dc61133801d"/>
 <approved hash="4,1,bdce21121d2b8051"/>
+<approved hash="4,1,bc0a2dc61133801d"/>
 <approved hash="4,1,704bb45b9433dfa2"/>
 <approved hash="4,1,3110d02bada3c340"/>
 <approved hash="4,1,a91cd8dc5f57d753"/>
-<approved hash="4,1,21959719ab091d67"/>
 <approved hash="4,1,3344f8d08de13451"/>
+<approved hash="4,1,21959719ab091d67"/>
 <approved hash="4,1,935cfe0912a54efe"/>
 <approved hash="4,1,f3f9e462f782dc2b"/>
-<approved hash="4,1,36c4769441c8cd38"/>
 <approved hash="4,1,7710613e879c297f"/>
+<approved hash="4,1,36c4769441c8cd38"/>
 <approved hash="4,1,4ade76e276204a1c"/>
-<approved hash="4,1,1043cc531bc1eef3"/>
 <approved hash="4,1,bcb4c5798439a0bb"/>
+<approved hash="4,1,1043cc531bc1eef3"/>
 <approved hash="4,1,b2df1ee31e23b21f"/>
-<approved hash="4,1,6f38d93257906952"/>
 <approved hash="4,1,8ee96e9801c41d10"/>
+<approved hash="4,1,6f38d93257906952"/>
 <approved hash="4,1,aaddf6e1f621aa1d"/>
-<approved hash="4,1,b86d94574bc35ed0"/>
 <approved hash="4,1,e4976d7b343df095"/>
+<approved hash="4,1,b86d94574bc35ed0"/>
 <approved hash="4,1,42de4ee24e2c4210"/>
 <approved hash="4,16,7710613e879c297f"/>
 <approved hash="4,16,36c4769441c8cd38"/>
