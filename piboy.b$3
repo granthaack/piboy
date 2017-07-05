@@ -2578,7 +2578,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="THERM" library="adafruit" package="R0805" value="15K" x="57.089" y="60.5928" rot="MR270"/>
 <element name="U1" library="microbuilder" package="PVQFN-16" value="TPS61090RSAR" x="58.05" y="67.51" rot="MR270"/>
 <element name="U2" library="microbuilder" package="QFN20_4MM" value="MCP73871" x="53.3256" y="56.273" rot="MR270"/>
-<element name="ON/OFF" library="piboy_new" package="ADAFRUIT_EG1218" value="" x="66.6693" y="21.3269" rot="R90"/>
+<element name="ON/OFF" library="piboy_new" package="ADAFRUIT_EG1218" value="" x="66.6693" y="21.6063" rot="R90"/>
 <element name="U$9" library="piboy" package="961240-6300-AR-PR" value="961240-6300-AR-PR" x="37.565" y="26.538" smashed="yes" rot="MR0"/>
 <element name="BVM19,GPIO10" library="piboy_new" package="WIREPAD_1,6/0,9" value="" x="15.7" y="64.9"/>
 <element name="BCM21,GPIO9" library="piboy_new" package="WIREPAD_1,6/0,9" value="" x="17.7" y="64.9"/>
@@ -3110,7 +3110,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="57.4964" y="64.3638125" extent="1-16" drill="0.35"/>
 <wire x1="69.215" y1="19.685" x2="66.6877" y2="21.3106" width="0.2032" layer="1"/>
 <wire x1="72.39" y1="19.685" x2="69.215" y2="19.685" width="0.2032" layer="1"/>
-<wire x1="66.6877" y1="21.3106" x2="66.6693" y2="21.3269" width="0.2032" layer="1"/>
+<wire x1="66.6877" y1="21.3106" x2="66.6693" y2="21.6063" width="0.2032" layer="1"/>
 <wire x1="60.325" y1="55.88" x2="60.325" y2="55.8428" width="0.2032" layer="1"/>
 <wire x1="72.39" y1="20.16125" x2="72.39" y2="19.685" width="0.2032" layer="1"/>
 <wire x1="72.7075" y1="20.47875" x2="72.39" y2="20.16125" width="0.2032" layer="1"/>

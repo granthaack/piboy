@@ -1768,6 +1768,7 @@ VIDEO</text>
 </polygon>
 <circle x="57.8866" y="11.4808" radius="0.934378125" width="0.3048" layer="21"/>
 <rectangle x1="49.8729" y1="7.5565" x2="52.4764" y2="9.8806" layer="21"/>
+<circle x="57.912" y="11.4681" radius="0.73889375" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="microbuilder">
