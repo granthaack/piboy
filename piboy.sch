@@ -12822,6 +12822,15 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="243.84" y1="-119.38" x2="243.84" y2="-121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="127" y1="-106.68" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="U$33" gate="G$1" pin="P$1"/>
+<wire x1="106.68" y1="-104.14" x2="106.68" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-111.76" x2="124.46" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-111.76" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
+<label x="111.76" y="-111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -13521,16 +13530,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="U$33" gate="G$1" pin="P$2"/>
 <wire x1="111.76" y1="-99.06" x2="127" y2="-99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="127" y1="-106.68" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="U$33" gate="G$1" pin="P$1"/>
-<wire x1="106.68" y1="-104.14" x2="106.68" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-111.76" x2="124.46" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-111.76" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AO-" class="0">

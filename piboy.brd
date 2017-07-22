@@ -3010,6 +3010,17 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="22.8092" y="72.39"/>
 <vertex x="-0.0254" y="72.39"/>
 </polygon>
+<contactref element="C12" pad="2"/>
+<contactref element="U$33" pad="P$1"/>
+<wire x1="25.8171" y1="58.6668" x2="25.842075" y2="58.8538" width="0.254" layer="16"/>
+<wire x1="25.842075" y1="58.8538" x2="25.956175" y2="59.743" width="0.254" layer="16"/>
+<wire x1="25.956175" y1="59.743" x2="12.703" y2="59.743" width="0.254" layer="16"/>
+<wire x1="12.703" y1="59.743" x2="12.26" y2="59.3" width="0.254" layer="16"/>
+<wire x1="12.26" y1="59.3" x2="12.1" y2="59.3" width="0.254" layer="16"/>
+<wire x1="65.2914" y1="55.5932" x2="73.4583" y2="51.2084" width="0" layer="19" extent="16-16"/>
+<wire x1="25.956175" y1="59.743" x2="26.51125" y2="61.75375" width="0" layer="19" extent="16-16"/>
+<wire x1="71.3894" y1="38.252" x2="67.617" y2="41.718" width="0" layer="19" extent="1-16"/>
+<wire x1="66.6693" y1="19.0663" x2="72.1684" y2="20.6284" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="3"/>
@@ -3881,15 +3892,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U$33" pad="P$2"/>
 <wire x1="21.6282" y1="58.5974" x2="13.7787" y2="58.5342" width="0.254" layer="16"/>
 <wire x1="13.7787" y1="58.5342" x2="12.1" y2="57.3" width="0.254" layer="16"/>
-</signal>
-<signal name="N$26">
-<contactref element="C12" pad="2"/>
-<contactref element="U$33" pad="P$1"/>
-<wire x1="25.8171" y1="58.6668" x2="25.842075" y2="58.8538" width="0.254" layer="16"/>
-<wire x1="25.842075" y1="58.8538" x2="25.956175" y2="59.743" width="0.254" layer="16"/>
-<wire x1="25.956175" y1="59.743" x2="12.703" y2="59.743" width="0.254" layer="16"/>
-<wire x1="12.703" y1="59.743" x2="12.26" y2="59.3" width="0.254" layer="16"/>
-<wire x1="12.26" y1="59.3" x2="12.1" y2="59.3" width="0.254" layer="16"/>
 </signal>
 <signal name="AO-">
 <contactref element="FB1" pad="1"/>
