@@ -6329,13 +6329,6 @@ chip</description>
 <smd name="P37" x="21.59" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 <smd name="P39" x="24.13" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 </package>
-<package name="SKRRAAE010">
-<description>7mm x 7.5mm surface mount smt low profile slim tact switch</description>
-<smd name="P1" x="-3" y="2.5" dx="1" dy="1.1" layer="1"/>
-<smd name="P3" x="3" y="2.5" dx="1" dy="1.1" layer="1"/>
-<smd name="P2" x="-3" y="-2.5" dx="1" dy="1.1" layer="1"/>
-<smd name="P4" x="3" y="-2.5" dx="1" dy="1.1" layer="1"/>
-</package>
 <package name="TL3315NF100Q">
 <smd name="P1" x="-2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
 <smd name="P2" x="2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
@@ -6385,17 +6378,6 @@ chip</description>
 <pin name="P35" x="17.78" y="-5.08" length="middle" rot="R270"/>
 <pin name="P37" x="20.32" y="-5.08" length="middle" rot="R270"/>
 <pin name="P39" x="22.86" y="-5.08" length="middle" rot="R270"/>
-</symbol>
-<symbol name="SKRRAAE010">
-<description>SKRRAAE010 smt surface mount 7mm x 7.5mm slim low profile tact switch</description>
-<pin name="P1" x="-2.54" y="2.54" length="middle" rot="R180"/>
-<pin name="P2" x="-2.54" y="-2.54" length="middle" rot="R180"/>
-<pin name="P3" x="2.54" y="2.54" length="middle"/>
-<pin name="P4" x="2.54" y="-2.54" length="middle"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
 <symbol name="TL3315NF100Q">
 <pin name="P1" x="-2.54" y="2.54" length="middle" rot="R180"/>
@@ -6456,24 +6438,6 @@ chip</description>
 <connect gate="G$1" pin="P7" pad="P7"/>
 <connect gate="G$1" pin="P8" pad="P8"/>
 <connect gate="G$1" pin="P9" pad="P9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SKRRAAE010">
-<gates>
-<gate name="G$1" symbol="SKRRAAE010" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SKRRAAE010">
-<connects>
-<connect gate="G$1" pin="P1" pad="P1"/>
-<connect gate="G$1" pin="P2" pad="P2"/>
-<connect gate="G$1" pin="P3" pad="P3"/>
-<connect gate="G$1" pin="P4" pad="P4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10349,6 +10313,17 @@ chip</description>
 <smd name="C" x="0" y="1.2" dx="1" dy="1.4" layer="1"/>
 <smd name="E" x="0.95" y="-1.2" dx="1" dy="1.4" layer="1"/>
 </package>
+<package name="PIBOY_SKRRAAE010">
+<description>7mm x 7.5mm surface mount smt low profile slim tact switch</description>
+<smd name="P1" x="-3" y="2.5" dx="1" dy="1.1" layer="1"/>
+<smd name="P2" x="-3" y="-2.5" dx="1" dy="1.1" layer="1"/>
+<smd name="P3" x="3" y="2.5" dx="1" dy="1.1" layer="1"/>
+<smd name="P4" x="3" y="-2.5" dx="1" dy="1.1" layer="1"/>
+<rectangle x1="-3.9624" y1="-3.2512" x2="-3.4544" y2="-1.7272" layer="1"/>
+<rectangle x1="3.4544" y1="-3.2512" x2="3.9624" y2="-1.7272" layer="1"/>
+<rectangle x1="3.4544" y1="1.7272" x2="3.9624" y2="3.2512" layer="1"/>
+<rectangle x1="-3.9624" y1="1.7272" x2="-3.4544" y2="3.2512" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCH_TL1105L-4,3">
@@ -10516,6 +10491,17 @@ chip</description>
 <pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PIBOY_SKRRAAE010">
+<description>SKRRAAE010 smt surface mount 7mm x 7.5mm slim low profile tact switch</description>
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<pin name="P1" x="-2.54" y="2.54" length="middle" rot="R180"/>
+<pin name="P2" x="-2.54" y="-2.54" length="middle" rot="R180"/>
+<pin name="P3" x="2.54" y="2.54" length="middle"/>
+<pin name="P4" x="2.54" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -12218,7 +12204,7 @@ Source: http://www.osram.convergy.de/</description>
 <devices>
 <device name="" package="RK10J12R0A0B">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$1" pad="GND1 GND2 P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 </connects>
@@ -12268,6 +12254,24 @@ Source: http://www.osram.convergy.de/</description>
 <technology name="MUN2112T1"/>
 <technology name="MUN2113T1"/>
 <technology name="MUN2114T1"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIBOY_SKRRAAE010">
+<gates>
+<gate name="G$1" symbol="PIBOY_SKRRAAE010" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIBOY_SKRRAAE010">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -12359,20 +12363,19 @@ Source: http://www.osram.convergy.de/</description>
 <part name="BCM1,3.3V" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="BCM22,GPIO25" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="BCM18,GPIO24" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
-<part name="U$10" library="piboy" deviceset="SKRRAAE010" device=""/>
-<part name="U$11" library="piboy" deviceset="SKRRAAE010" device=""/>
-<part name="U$12" library="piboy" deviceset="SKRRAAE010" device=""/>
-<part name="U$13" library="piboy" deviceset="SKRRAAE010" device=""/>
-<part name="U$15" library="piboy" deviceset="SKRRAAE010" device=""/>
-<part name="U$16" library="piboy" deviceset="SKRRAAE010" device=""/>
-<part name="U$17" library="piboy" deviceset="SKRRAAE010" device=""/>
-<part name="U$18" library="piboy" deviceset="SKRRAAE010" device=""/>
+<part name="U$10" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
+<part name="U$11" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
+<part name="U$12" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
+<part name="U$13" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
+<part name="U$15" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
+<part name="U$16" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
+<part name="U$17" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
+<part name="U$18" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
 <part name="U$21" library="piboy" deviceset="TL3315NF100Q" device=""/>
 <part name="U$22" library="piboy" deviceset="TL3315NF100Q" device=""/>
 <part name="U$25" library="piboy" deviceset="TL3315NF100Q" device=""/>
 <part name="U$26" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="U$28" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
-<part name="U$30" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="BCM28,ID_SC" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="BCM27,ID_SD" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="R19" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="100"/>
@@ -12510,7 +12513,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <instance part="U$25" gate="G$1" x="35.56" y="-99.06"/>
 <instance part="U$26" gate="G$1" x="7.62" y="-96.52"/>
 <instance part="U$28" gate="G$1" x="66.04" y="-96.52"/>
-<instance part="U$30" gate="G$1" x="66.04" y="-106.68"/>
 <instance part="BCM28,ID_SC" gate="1" x="68.58" y="-40.64"/>
 <instance part="BCM27,ID_SD" gate="1" x="68.58" y="43.18"/>
 <instance part="R19" gate="G$1" x="147.32" y="-99.06"/>
@@ -12791,11 +12793,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="53.34" y1="-167.64" x2="48.26" y2="-167.64" width="0.1524" layer="91"/>
 <junction x="48.26" y="-167.64"/>
 <label x="40.64" y="-167.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$30" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="-106.68" x2="76.2" y2="-106.68" width="0.1524" layer="91"/>
-<label x="71.12" y="-104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="2"/>
@@ -13432,11 +13429,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="U$9" gate="G$1" pin="P11"/>
 <wire x1="22.86" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
 <label x="5.08" y="15.24" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="U$30" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="-106.68" x2="55.88" y2="-106.68" width="0.1524" layer="91"/>
-<label x="55.88" y="-104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="J_VUP" class="0">

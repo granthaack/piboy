@@ -125,10 +125,6 @@
 <smd name="P2" x="2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
 <smd name="P4" x="2.025" y="-1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
 <smd name="P3" x="-2.025" y="-1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
-<smd name="NC1" x="-2.575" y="1.65" dx="0.2" dy="1.3" layer="1"/>
-<smd name="NC2" x="2.575" y="1.65" dx="0.2" dy="1.3" layer="1"/>
-<smd name="NC4" x="2.575" y="-1.65" dx="0.2" dy="1.3" layer="1"/>
-<smd name="NC3" x="-2.575" y="-1.65" dx="0.2" dy="1.3" layer="1"/>
 </package>
 </packages>
 <symbols>

@@ -8789,14 +8789,14 @@ chip</description>
 <smd name="GND2" x="5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 </package>
 <package name="PAM8302A">
-<smd name="P$3" x="0.65" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$2" x="-0.65" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$4" x="1.95" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$1" x="-1.95" y="-2.7" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$8" x="-1.95" y="3" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$7" x="-0.65" y="3" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$6" x="0.65" y="3" dx="0.4" dy="0.72" layer="1"/>
-<smd name="P$5" x="1.95" y="3" dx="0.4" dy="0.72" layer="1"/>
+<smd name="P$3" x="0.65" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$2" x="-0.65" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$4" x="1.95" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$1" x="-1.95" y="-2.7" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$8" x="-1.95" y="3" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$7" x="-0.65" y="3" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$6" x="0.65" y="3" dx="0.508" dy="2.5146" layer="1"/>
+<smd name="P$5" x="1.95" y="3" dx="0.508" dy="2.5146" layer="1"/>
 <wire x1="-2.15" y1="2.6" x2="2.15" y2="2.6" width="0.127" layer="51"/>
 <wire x1="2.15" y1="-2.35" x2="-2.15" y2="-2.35" width="0.127" layer="51"/>
 <wire x1="-2.15" y1="-2.35" x2="-2.4" y2="-2.35" width="0.127" layer="51"/>
@@ -12372,7 +12372,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="U$25" library="piboy" deviceset="TL3315NF100Q" device=""/>
 <part name="U$26" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="U$28" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
-<part name="U$30" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="BCM28,ID_SC" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="BCM27,ID_SD" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
 <part name="R19" library="piboy_new" deviceset="ADAFRUIT_R-US_" device="R0805" value="100"/>
@@ -12510,7 +12509,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <instance part="U$25" gate="G$1" x="35.56" y="-99.06"/>
 <instance part="U$26" gate="G$1" x="7.62" y="-96.52"/>
 <instance part="U$28" gate="G$1" x="66.04" y="-96.52"/>
-<instance part="U$30" gate="G$1" x="66.04" y="-106.68"/>
 <instance part="BCM28,ID_SC" gate="1" x="68.58" y="-40.64"/>
 <instance part="BCM27,ID_SD" gate="1" x="68.58" y="43.18"/>
 <instance part="R19" gate="G$1" x="147.32" y="-99.06"/>
@@ -12793,11 +12791,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <label x="40.64" y="-167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$30" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="-106.68" x2="76.2" y2="-106.68" width="0.1524" layer="91"/>
-<label x="71.12" y="-104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C13" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="198.12" y1="-121.92" x2="198.12" y2="-116.84" width="0.1524" layer="91"/>
@@ -12821,6 +12814,15 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="243.84" y1="-119.38" x2="243.84" y2="-121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="127" y1="-106.68" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
+<pinref part="U$33" gate="G$1" pin="P$1"/>
+<wire x1="106.68" y1="-104.14" x2="106.68" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-111.76" x2="124.46" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-111.76" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
+<label x="111.76" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13424,11 +13426,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="22.86" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
 <label x="5.08" y="15.24" size="1.778" layer="95" rot="R180"/>
 </segment>
-<segment>
-<pinref part="U$30" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="-106.68" x2="55.88" y2="-106.68" width="0.1524" layer="91"/>
-<label x="55.88" y="-104.14" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="J_VUP" class="0">
 <segment>
@@ -13521,16 +13518,6 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="U$33" gate="G$1" pin="P$2"/>
 <wire x1="111.76" y1="-99.06" x2="127" y2="-99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="127" y1="-106.68" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
-<pinref part="U$33" gate="G$1" pin="P$1"/>
-<wire x1="106.68" y1="-104.14" x2="106.68" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-111.76" x2="124.46" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-111.76" x2="124.46" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AO-" class="0">
