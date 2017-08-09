@@ -8797,14 +8797,14 @@ chip</description>
 <smd name="P$7" x="-0.65" y="3" dx="0.4" dy="0.72" layer="1"/>
 <smd name="P$6" x="0.65" y="3" dx="0.4" dy="0.72" layer="1"/>
 <smd name="P$5" x="1.95" y="3" dx="0.4" dy="0.72" layer="1"/>
-<wire x1="-2.15" y1="2.6" x2="2.15" y2="2.6" width="0.127" layer="20"/>
-<wire x1="2.15" y1="-2.35" x2="-2.15" y2="-2.35" width="0.127" layer="20"/>
-<wire x1="-2.15" y1="-2.35" x2="-2.4" y2="-2.35" width="0.127" layer="20"/>
-<wire x1="-2.4" y1="-2.35" x2="-2.4" y2="2.6" width="0.127" layer="20"/>
-<wire x1="-2.4" y1="2.6" x2="-2.15" y2="2.6" width="0.127" layer="20"/>
-<wire x1="2.15" y1="-2.35" x2="2.4" y2="-2.35" width="0.127" layer="20"/>
-<wire x1="2.4" y1="-2.35" x2="2.4" y2="2.6" width="0.127" layer="20"/>
-<wire x1="2.4" y1="2.6" x2="2.15" y2="2.6" width="0.127" layer="20"/>
+<wire x1="-2.15" y1="2.6" x2="2.15" y2="2.6" width="0.127" layer="51"/>
+<wire x1="2.15" y1="-2.35" x2="-2.15" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="-2.15" y1="-2.35" x2="-2.4" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="-2.35" x2="-2.4" y2="2.6" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="2.6" x2="-2.15" y2="2.6" width="0.127" layer="51"/>
+<wire x1="2.15" y1="-2.35" x2="2.4" y2="-2.35" width="0.127" layer="51"/>
+<wire x1="2.4" y1="-2.35" x2="2.4" y2="2.6" width="0.127" layer="51"/>
+<wire x1="2.4" y1="2.6" x2="2.15" y2="2.6" width="0.127" layer="51"/>
 </package>
 <package name="ADAFRUIT_C025-024X044">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;

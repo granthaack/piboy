@@ -8781,10 +8781,10 @@ chip</description>
 <smd name="P$3" x="4" y="-9" dx="1.4" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$2" x="-2" y="-9" dx="1.4" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$1" x="-4" y="-9" dx="1.4" dy="1.2" layer="1" rot="R90"/>
-<circle x="0" y="0" radius="7" width="0.127" layer="20"/>
-<wire x1="-6" y1="-3.6" x2="-6" y2="-8.3" width="0.127" layer="20"/>
-<wire x1="-6" y1="-8.3" x2="6" y2="-8.3" width="0.127" layer="20"/>
-<wire x1="6" y1="-8.3" x2="6" y2="-3.6" width="0.127" layer="20"/>
+<circle x="0" y="0" radius="7" width="0.127" layer="51"/>
+<wire x1="-6" y1="-3.6" x2="-6" y2="-8.3" width="0.127" layer="51"/>
+<wire x1="-6" y1="-8.3" x2="6" y2="-8.3" width="0.127" layer="51"/>
+<wire x1="6" y1="-8.3" x2="6" y2="-3.6" width="0.127" layer="51"/>
 <smd name="GND1" x="-5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 <smd name="GND2" x="5" y="1.8" dx="2.2" dy="1.4" layer="1"/>
 </package>
