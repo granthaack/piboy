@@ -7,10 +7,11 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="piboy_new.lbr"
+UsedLibrary="/home/granthaack/eagle/corruptcore/CorruptCore.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="1356 964 2762 1767"
+Loc="1396 1025 2410 1828"
 State=2
 Number=0
 

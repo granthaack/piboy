@@ -307,8 +307,8 @@ chip</description>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-<text x="-2.54" y="2.54" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.54" y="1.27" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="1.27" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="21" font="vector">&gt;VALUE</text>
 </package>
 <package name="C1005">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -6843,8 +6843,8 @@ chip</description>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="21"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
-<text x="-2.54" y="2.54" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.54" y="1.27" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="1.27" size="0.8128" layer="21" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="21" font="vector">&gt;VALUE</text>
 </package>
 <package name="R0805W">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;

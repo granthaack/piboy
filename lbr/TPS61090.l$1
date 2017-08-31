@@ -92,8 +92,6 @@
 <smd name="15" x="-0.325" y="2" dx="0.8" dy="0.35" layer="1" roundness="100" rot="R270"/>
 <smd name="16" x="-0.975" y="2" dx="0.8" dy="0.35" layer="1" roundness="100" rot="R270"/>
 <smd name="17" x="0" y="0" dx="2.8" dy="2.8" layer="1" cream="no"/>
-<text x="-2.54" y="2.54" size="1.016" layer="21" font="vector">TPS61090</text>
-<text x="-2.54" y="3.81" size="1.016" layer="21" font="vector">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
