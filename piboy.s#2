@@ -16264,27 +16264,17 @@ R3 = 1.1Mohm for 3.3V</text>
 </net>
 <net name="AUD+" class="0">
 <segment>
-<pinref part="U$40" gate="G$1" pin="P$6"/>
-<wire x1="274.32" y1="-99.06" x2="248.92" y2="-99.06" width="0.1524" layer="91"/>
-<pinref part="U$40" gate="G$1" pin="P$5"/>
-<wire x1="274.32" y1="-101.6" x2="248.92" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="-101.6" x2="243.84" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="-99.06" x2="248.92" y2="-101.6" width="0.1524" layer="91"/>
-<junction x="248.92" y="-101.6"/>
-<pinref part="SPK2" gate="1" pin="P"/>
-</segment>
-<segment>
 <pinref part="U$40" gate="G$1" pin="P$2"/>
 <wire x1="254" y1="-104.14" x2="274.32" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="254" y1="-104.14" x2="254" y2="-96.52" width="0.1524" layer="91"/>
-<pinref part="U$40" gate="G$1" pin="P$3"/>
-<wire x1="254" y1="-96.52" x2="274.32" y2="-96.52" width="0.1524" layer="91"/>
 <label x="256.54" y="-106.68" size="1.778" layer="95"/>
 <wire x1="236.22" y1="-96.52" x2="236.22" y2="-104.14" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="-104.14" x2="254" y2="-104.14" width="0.1524" layer="91"/>
 <junction x="254" y="-104.14"/>
 <pinref part="U3" gate="G$1" pin="OUT+"/>
 <wire x1="208.28" y1="-93.98" x2="236.22" y2="-96.52" width="0.1524" layer="91"/>
+<pinref part="U$40" gate="G$1" pin="P$3"/>
+<wire x1="254" y1="-96.52" x2="274.32" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -16328,6 +16318,18 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="165.1" y1="-101.6" x2="175.26" y2="-101.6" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="IN-"/>
 <wire x1="175.26" y1="-101.6" x2="175.26" y2="-96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="AUD+_HDPN_OUT" class="0">
+<segment>
+<pinref part="SPK2" gate="1" pin="P"/>
+<pinref part="U$40" gate="G$1" pin="P$5"/>
+<wire x1="243.84" y1="-101.6" x2="256.54" y2="-101.6" width="0.1524" layer="91"/>
+<pinref part="U$40" gate="G$1" pin="P$6"/>
+<wire x1="256.54" y1="-101.6" x2="274.32" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="-99.06" x2="256.54" y2="-99.06" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-99.06" x2="256.54" y2="-101.6" width="0.1524" layer="91"/>
+<junction x="256.54" y="-101.6"/>
 </segment>
 </net>
 </nets>
