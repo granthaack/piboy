@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/granthaack/eagle/projects/piboy/piboy.brd
 
-Start at      : 20:41:15 (8/31/17)
-End at        : 20:41:28 (8/31/17)
-Elapsed time  : 00:00:10
+Start at      : 22:11:46 (8/31/17)
+End at        : 22:12:12 (8/31/17)
+Elapsed time  : 00:00:24
 
-Signals       :    62   RoutingGrid: 6.25 mil  Layers: 2
-Connections   :   210   predefined:  133 ( 54 Vias )
+Signals       :    61   RoutingGrid: 8 mil  Layers: 2
+Connections   :   182   predefined:  179 ( 72 Vias )
 
-Router memory :   1338288
+Router memory :   822424
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:00  00:00:03  00:00:02  00:00:02  00:00:01  00:00:02
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:16  00:00:07  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
+Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :         7        47        75        75        75        75
-Vias              :         0        32        18        15        15        15
-Resolution        :    66.7 %    85.7 %    99.0 %    99.0 %    99.0 %    99.0 %
+Routed            :         0         3         3         3         3         3         3         3         3         3         3         3         3         3
+Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+Resolution        :    98.4 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 94.0% finished. Polygons may have fallen apart.
+Final             : 98.4% finished. Polygons may have fallen apart.
