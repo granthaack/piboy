@@ -4712,16 +4712,16 @@ Please make sure your boards conform to these design rules.</description>
 <via x="18.515" y="29.738" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="J_DWN">
-<contactref element="U$9" pad="P37"/>
 <contactref element="U$13" pad="P1"/>
 <contactref element="U$13" pad="P3"/>
 <wire x1="14.3088" y1="37.6032" x2="20.2072" y2="37.6032" width="0.2032" layer="1"/>
 <wire x1="20.2072" y1="37.6032" x2="20.3088" y2="37.6032" width="0.2032" layer="1"/>
-<wire x1="15.975" y1="23.338" x2="15.975" y2="26.87195" width="0.2032" layer="16"/>
 <wire x1="15.975" y1="26.87195" x2="16.9148" y2="27.81175" width="0.2032" layer="16"/>
 <wire x1="16.9148" y1="34.3108" x2="20.2072" y2="37.6032" width="0.2032" layer="16"/>
 <wire x1="16.9148" y1="27.81175" x2="16.9148" y2="34.3108" width="0.2032" layer="16"/>
 <via x="20.2072" y="37.6032" extent="1-16" drill="0.35"/>
+<contactref element="U$9" pad="P37"/>
+<wire x1="15.975" y1="23.338" x2="15.975" y2="26.87195" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="J_A">
 <contactref element="U$9" pad="P8"/>

@@ -16095,17 +16095,17 @@ R3 = 1.1Mohm for 3.3V</text>
 </net>
 <net name="J_DWN" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="P37"/>
-<wire x1="22.86" y1="-17.78" x2="5.08" y2="-17.78" width="0.1524" layer="91"/>
-<label x="5.08" y="-17.78" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="U$13" gate="G$1" pin="P1"/>
 <wire x1="5.08" y1="-139.7" x2="-2.54" y2="-139.7" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="P3"/>
 <wire x1="5.08" y1="-139.7" x2="10.16" y2="-139.7" width="0.1524" layer="91"/>
 <junction x="5.08" y="-139.7"/>
 <label x="-2.54" y="-142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P37"/>
+<wire x1="22.86" y1="-17.78" x2="5.08" y2="-17.78" width="0.1524" layer="91"/>
+<label x="5.08" y="-17.78" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="J_A" class="0">
