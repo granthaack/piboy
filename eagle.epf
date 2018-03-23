@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 02 01"
+Version="08 03 01"
 Platform="Linux"
 Globals="Globals"
 Desktop="Desktop"
@@ -7,14 +7,13 @@ Desktop="Desktop"
 [Globals]
 AutoSaveProject=1
 UsedLibrary="piboy_new.lbr"
-UsedLibrary="/home/granthaack/eagle/corruptcore/CorruptCore.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="1396 1025 2410 1828"
+Loc="351 28 1365 696"
 State=2
 Number=0
 
 [Desktop]
-Screen="4680 1920"
+Screen="1366 768"
 Window="Win_1"
