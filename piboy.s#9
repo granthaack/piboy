@@ -6036,12 +6036,6 @@ chip</description>
 <smd name="P37" x="21.59" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 <smd name="P39" x="24.13" y="-3.2" dx="1.27" dy="3.6" layer="1"/>
 </package>
-<package name="TL3315NF100Q">
-<smd name="P1" x="-2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
-<smd name="P2" x="2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
-<smd name="P4" x="2.025" y="-1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
-<smd name="P3" x="-2.025" y="-1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
-</package>
 </packages>
 <symbols>
 <symbol name="961240-6300-AR-PR">
@@ -6085,16 +6079,6 @@ chip</description>
 <pin name="P35" x="17.78" y="-5.08" length="middle" rot="R270"/>
 <pin name="P37" x="20.32" y="-5.08" length="middle" rot="R270"/>
 <pin name="P39" x="22.86" y="-5.08" length="middle" rot="R270"/>
-</symbol>
-<symbol name="TL3315NF100Q">
-<pin name="P1" x="-2.54" y="2.54" length="middle" rot="R180"/>
-<pin name="P2" x="2.54" y="2.54" length="middle"/>
-<pin name="P3" x="-2.54" y="-2.54" length="middle" rot="R180"/>
-<pin name="P4" x="2.54" y="-2.54" length="middle"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6145,24 +6129,6 @@ chip</description>
 <connect gate="G$1" pin="P7" pad="P7"/>
 <connect gate="G$1" pin="P8" pad="P8"/>
 <connect gate="G$1" pin="P9" pad="P9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TL3315NF100Q">
-<gates>
-<gate name="G$1" symbol="TL3315NF100Q" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TL3315NF100Q">
-<connects>
-<connect gate="G$1" pin="P1" pad="P1"/>
-<connect gate="G$1" pin="P2" pad="P2"/>
-<connect gate="G$1" pin="P3" pad="P3"/>
-<connect gate="G$1" pin="P4" pad="P4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7366,6 +7332,16 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <text x="2.794" y="1.397" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
 <text x="2.794" y="0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="PIBOY_TL3315NF100Q">
+<smd name="P1" x="-2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
+<smd name="P2" x="2.025" y="1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
+<smd name="P3" x="-2.025" y="-1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
+<smd name="P4" x="2.025" y="-1.65" dx="0.9" dy="0.7" layer="1" rot="R180"/>
+<smd name="P$1" x="-2.6" y="1.6" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$2" x="2.6" y="1.6" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$3" x="-2.6" y="-1.7" dx="0.3" dy="1.2" layer="1"/>
+<smd name="P$4" x="2.6" y="-1.7" dx="0.3" dy="1.2" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SWITCH_TL1105L-4,3">
@@ -7521,6 +7497,16 @@ Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
 <text x="-2.54" y="-5.08" size="1.27" layer="96">&gt;VALUE</text>
 <text x="1.27" y="-1.143" size="1.27" layer="94" rot="R270">+</text>
 <text x="-1.778" y="-1.143" size="1.27" layer="94" rot="R270">-</text>
+</symbol>
+<symbol name="PIBOY_TL3315NF100Q">
+<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<pin name="P1" x="-2.54" y="2.54" length="middle" rot="R180"/>
+<pin name="P2" x="2.54" y="2.54" length="middle"/>
+<pin name="P3" x="-2.54" y="-2.54" length="middle" rot="R180"/>
+<pin name="P4" x="2.54" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8040,6 +8026,24 @@ Source: http://www.osram.convergy.de/</description>
 <connects>
 <connect gate="G$1" pin="+" pad="2"/>
 <connect gate="G$1" pin="-" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIBOY_TL3315NF100Q">
+<gates>
+<gate name="G$1" symbol="PIBOY_TL3315NF100Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIBOY_TL3315NF100Q">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15169,9 +15173,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$16" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
 <part name="U$17" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
 <part name="U$18" library="piboy_new" deviceset="PIBOY_SKRRAAE010" device=""/>
-<part name="U$21" library="piboy" deviceset="TL3315NF100Q" device=""/>
-<part name="U$22" library="piboy" deviceset="TL3315NF100Q" device=""/>
-<part name="U$25" library="piboy" deviceset="TL3315NF100Q" device=""/>
+<part name="U$21" library="piboy_new" deviceset="PIBOY_TL3315NF100Q" device=""/>
+<part name="U$22" library="piboy_new" deviceset="PIBOY_TL3315NF100Q" device=""/>
+<part name="U$25" library="piboy_new" deviceset="PIBOY_TL3315NF100Q" device=""/>
 <part name="U$26" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="U$28" library="piboy_new" deviceset="SWITCH_TL1105L-4,3" device=""/>
 <part name="BCM28,ID_SC" library="piboy_new" deviceset="WIREPAD_1,6/0,9" device=""/>
@@ -15193,6 +15197,19 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="GND19" library="supply1" deviceset="GND" device=""/>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="GND21" library="supply1" deviceset="GND" device=""/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
+<part name="GND25" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15323,6 +15340,19 @@ R3 = 1.1Mohm for 3.3V</text>
 <instance part="GND5" gate="1" x="215.9" y="-101.6" rot="R90"/>
 <instance part="GND6" gate="1" x="185.42" y="-111.76"/>
 <instance part="GND7" gate="1" x="137.16" y="-111.76"/>
+<instance part="GND8" gate="1" x="-5.08" y="-144.78" rot="R270"/>
+<instance part="GND12" gate="1" x="-20.32" y="-134.62" rot="R270"/>
+<instance part="GND13" gate="1" x="35.56" y="-134.62" rot="R90"/>
+<instance part="GND16" gate="1" x="38.1" y="-134.62" rot="R270"/>
+<instance part="GND17" gate="1" x="10.16" y="-167.64" rot="R270"/>
+<instance part="GND18" gate="1" x="38.1" y="-167.64" rot="R270"/>
+<instance part="GND19" gate="1" x="53.34" y="-124.46" rot="R270"/>
+<instance part="GND20" gate="1" x="-5.08" y="-124.46" rot="R270"/>
+<instance part="GND21" gate="1" x="53.34" y="-144.78" rot="R270"/>
+<instance part="GND22" gate="1" x="93.98" y="-134.62" rot="R90"/>
+<instance part="GND23" gate="1" x="22.86" y="-101.6" rot="R270"/>
+<instance part="GND24" gate="1" x="20.32" y="-96.52" rot="R90"/>
+<instance part="GND25" gate="1" x="78.74" y="-96.52" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15486,11 +15516,13 @@ R3 = 1.1Mohm for 3.3V</text>
 <pinref part="U$26" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="-96.52" x2="17.78" y2="-96.52" width="0.1524" layer="91"/>
 <label x="12.7" y="-93.98" size="1.778" layer="95"/>
+<pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$28" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="-96.52" x2="76.2" y2="-96.52" width="0.1524" layer="91"/>
 <label x="71.12" y="-93.98" size="1.778" layer="95"/>
+<pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$25" gate="G$1" pin="P3"/>
@@ -15499,6 +15531,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="38.1" y1="-101.6" x2="33.02" y2="-101.6" width="0.1524" layer="91"/>
 <junction x="33.02" y="-101.6"/>
 <label x="25.4" y="-101.6" size="1.778" layer="95"/>
+<pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="P2"/>
@@ -15507,6 +15540,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="5.08" y1="-124.46" x2="10.16" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="5.08" y="-124.46"/>
 <label x="-2.54" y="-124.46" size="1.778" layer="95"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="P2"/>
@@ -15515,6 +15549,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="-10.16" y1="-134.62" x2="-5.08" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="-10.16" y="-134.62"/>
 <label x="-17.78" y="-134.62" size="1.778" layer="95"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P4"/>
@@ -15523,6 +15558,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="20.32" y1="-134.62" x2="25.4" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="25.4" y="-134.62"/>
 <label x="27.94" y="-134.62" size="1.778" layer="95"/>
+<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$13" gate="G$1" pin="P2"/>
@@ -15531,6 +15567,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="5.08" y1="-144.78" x2="10.16" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="5.08" y="-144.78"/>
 <label x="-2.54" y="-147.32" size="1.778" layer="95"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="P2"/>
@@ -15539,6 +15576,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="63.5" y1="-124.46" x2="68.58" y2="-124.46" width="0.1524" layer="91"/>
 <junction x="63.5" y="-124.46"/>
 <label x="55.88" y="-124.46" size="1.778" layer="95"/>
+<pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$16" gate="G$1" pin="P2"/>
@@ -15547,6 +15585,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="53.34" y1="-134.62" x2="48.26" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="48.26" y="-134.62"/>
 <label x="40.64" y="-134.62" size="1.778" layer="95"/>
+<pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$17" gate="G$1" pin="P4"/>
@@ -15555,6 +15594,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="83.82" y1="-134.62" x2="78.74" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="83.82" y="-134.62"/>
 <label x="86.36" y="-134.62" size="1.778" layer="95"/>
+<pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$18" gate="G$1" pin="P2"/>
@@ -15563,6 +15603,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="63.5" y1="-144.78" x2="68.58" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="63.5" y="-144.78"/>
 <label x="55.88" y="-147.32" size="1.778" layer="95"/>
+<pinref part="GND21" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$21" gate="G$1" pin="P3"/>
@@ -15571,6 +15612,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="20.32" y1="-167.64" x2="25.4" y2="-167.64" width="0.1524" layer="91"/>
 <junction x="20.32" y="-167.64"/>
 <label x="12.7" y="-167.64" size="1.778" layer="95"/>
+<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="P3"/>
@@ -15579,6 +15621,7 @@ R3 = 1.1Mohm for 3.3V</text>
 <wire x1="53.34" y1="-167.64" x2="48.26" y2="-167.64" width="0.1524" layer="91"/>
 <junction x="48.26" y="-167.64"/>
 <label x="40.64" y="-167.64" size="1.778" layer="95"/>
+<pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C9" gate="G$1" pin="1"/>
