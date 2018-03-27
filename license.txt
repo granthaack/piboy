@@ -1,1 +1,7 @@
 This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 United States License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/us/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+Li-Ion Charging Circuitry and 3.7V Boost Circuitry are based on the PowerBoost 1000C Circuit By Adafruit.
+https://github.com/adafruit/Adafruit-PowerBoost-1000C
+
+Audio Amplifier Circuitry based on the PAM8302A Mono 2.5W Amplifier Circuit by Adafruit
+https://github.com/adafruit/Adafruit-PAM8302-Mono-Amplifier-PCB
